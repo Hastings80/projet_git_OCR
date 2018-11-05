@@ -38,3 +38,7 @@ on commit et on verifie qu'il y a bien au moins 4 commit avec git log
 
 On enregistrer ce fichier readme.txt pour préparer l'envoi de tout cela :)
 et on fait le dernier commit 
+
+On prépare l'envoi sur le repo GITHUB avec
+git remote add origin https://github.com/Hastings80/projet_git_OCR.git
+git push -u origin master
