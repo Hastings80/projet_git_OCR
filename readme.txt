@@ -20,5 +20,12 @@ on verifie d'abord avec git status
 
 on les passe à l'index par git add nom du fichier
 
-on passe donc au commit de ces deux fichiers par git commit -am "Ajout des deux fichiers dans le commit"
+on passe donc au commit de ces deux fichiers par git commit -am "Ajout des deux fichiers dans le commit du projet git"
+
+on créé un autre fichier nommé page.php afin d'avoir deux autres fichiers s'ajoutant à readme.txt par touch page.php
+
+en faisant git status on voit que ce fichier n'est pas à l'index
+on le passe par git add page.php
+
+on fait une modification dans ce fichier en ajoutant la ligne  <?php namespace Mapage; echo "ceci est une page"; ?>
 
