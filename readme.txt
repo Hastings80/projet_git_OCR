@@ -42,3 +42,5 @@ et on fait le dernier commit
 On prépare l'envoi sur le repo GITHUB avec
 git remote add origin https://github.com/Hastings80/projet_git_OCR.git
 git push -u origin master
+
+on a modifié le readme.txt de nouveau on fait donc un commit et on l'envoi avec push
